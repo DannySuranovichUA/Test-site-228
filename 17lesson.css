@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tm-content-header {
+    background: linear-gradient(to bottom, rgba(224, 58, 50, 0.9), rgba(36, 104, 147, 0.9), rgba(0, 146, 0, 0.9));
+    box-shadow: 1px 1px 15px 5px rgb(82, 80, 80);
+}
+
+.tm-banner {
+    background-color: aliceblue;
+    width: calc(100% - 70px);
+}
+
+.first-navbar {
+    box-shadow: 1px 1px 10px 5px rgba(82, 80, 80, 0.623);
+}
+
+.tm-nav-item-link {
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: lighter;
+    color: black;
+}
+
+.tm-section-title {
+    font-weight: lighter;
+    font-style: normal;
+    text-align: center;
+    color: lightskyblue;
+}
+
+.tm-title {
+    font-weight: light;
+    font-style: normal;
+    text-align: center;
+    color: lightskyblue;
+}
+
+.img {
+    width: 100%;
+}
+
+.section-bg {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.for_hover:hover {
+    background-color: lightskyblue;
+}
+
+.for_hover:hover h2 {
+    color: white;
+}
+
+.my_form {
+    outline: none !important;
+    border: none;
+    border-bottom: 1px solid lightskyblue;
+    border-radius: 0%;
+}
+
+.my_area {
+    border-radius: 0%;
+    outline: none !important;
+}
+
+.my_form::placeholder,
+.my_area::placeholder,
+.my_text {
+    font-weight: lighter;
+}
+
+.my_form:focus,
+.my_area:focus,
+.my-btn:hover {
+    background-color: lightskyblue;
+    outline: none !important;
+}
+
+.my_form:focus::placeholder,
+.my_area:focus::placeholder {
+    color: white;
+}
+
+.my-btn {
+    width: 130px;
+    height: 45px;
+    border-radius: 0;
+    border: 2px solid lightskyblue;
+    background: none;
+    color: lightskyblue;
+    float: right;
+}
