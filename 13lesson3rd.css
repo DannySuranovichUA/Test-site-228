@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.gerb {
+    position: relative;
+    top: 10px;
+    height: 20px;
+    width: 15px;
+}
+
+.first-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-size: 6pt;
+}
+
+.gradient {
+    background: radial-gradient(aqua 15%, blue)
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+    font-size: small;
+    margin-bottom: 20px;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    float: left;
+    width: 100%;
+}
+
+.mail {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    margin: 0px 20px;
+    padding: 20px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.elem-center {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    margin: 20px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-around;
+    background-color: rgb(202, 202, 202);
+}
+
+.img-center {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+
+}
+
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.social {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+
+}
+
+.center-button {
+    color: blue;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: blue;
+    margin: 10px;
+
+}
+
+.center-text {
+    padding: 10px;
+    line-height: 30px;
+
+}
+
+.elem-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input {
+    border: 1px solid blue;
+    border-radius: 10px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    border: 1px solid blue;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.send-button {
+    background-color: blue;
+    border-radius: 10px;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+}
+
+.ending {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 30px;
+    background: linear-gradient(rgb(0, 255, 255), blue 99%);
+}
+
+@media only screen and (max-width: 1100px) {
+    .info {
+        flex-wrap: wrap;
+    }
+
+    .mail {
+        margin-left: 5px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+
+    .elem-center {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .soc{
+        flex-direction: row;
+    }
+}
+@media only screen and (max-width: 749px) {
+    .info{
+        flex-direction: column;
+    }
+
+}
